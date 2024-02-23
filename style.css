@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+}
+
+header {
+  color: rgb(255, 255, 255);
+
+}
+
+header #navbar {
+  display: flex;
+  justify-content: center;
+  padding: 0.2rem;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 5rem;
+}
+
+header #navbar .nav-list {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+header #navbar .nav-list .nav-item a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+header #navbar .nav-list .nav-item a:hover {
+  color: #3468C0;
+  transition: color 0.3s;
+}
+
+main {
+  margin-top: 4rem;
+  justify-content: space-between;
+}
+
+.banner-style {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  padding: 0.2rem;
+  margin: 0 auto;
+}
+
+.titulo {
+  font-size: 30px;
+  line-height: 2px;
+  margin-bottom: 40px;
+}
+
+.subtitulo {
+  font-size: 18px;
+  line-height: 20px;
+  max-width: 500px;
+  margin-bottom: 38px;
+}
+
+.botao {
+  background-color: #4391ff;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  padding: 8px 24px;
+  border-radius: 20px;
+  border: none;
+}
+
+.banner-imagem {
+  width: 100%;
+  max-width: 600px;
+
+}
+
+@media (max-width: 920px) {
+  banner-style {
+    flex-direction: column;
+    align-items: center
+  }
+
+  banner-content {
+    text-align: center;
+  }
+}
+  
+
+section#posts {
+  margin-top: 75px;
+  background-color: azure;
+
+}
+
+.posts-content {
+  max-width: 1200px;
+  padding: 0.2rem;
+  margin: 0 auto;
+}
+
+.posts-content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+
+.posts-titulo {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 20px;
+  border: none;
+  background-color: #4391ff;
+}
+
+.view-link {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 20px;
+  border: none;
+  background-color: #4391ff;
+}
+
+.posts-cards {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.posts {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 26px;
+}
+
+span {
+  font-size: 18px;
+  margin-bottom: 24px;
+  display: block;
+}
+
+
+
